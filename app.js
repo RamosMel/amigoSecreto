@@ -8,4 +8,6 @@ function agregarAmigo () {
         alert ("Por favor, inserte un nombre.");
         return;
     }
+
+    amigos.push (nombreAmigo);
 }
