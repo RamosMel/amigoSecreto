@@ -5,7 +5,7 @@ function agregarAmigo () {
     let nombreAmigo = inputAmigo.value;
 
     if (nombreAmigo.trim() === "") {
-        alert ("Por favor, inserte un nombre.");
+        alert("Por favor, inserte un nombre.");
         return;
     }
 
@@ -17,4 +17,14 @@ function agregarAmigo () {
     amigos.push (nombreAmigo);
 
     inputAmigo.value = "";
+
+    mostrarAmigos()
+}
+
+function mostrarAmigos(){
+    let listaAmigos = document.getElementById("listaAmigos");
+    listaAmigos.innerHTML = "";
+    amigos.forEach(amigo => {
+    listaAmigos.innerHTML += `<li>${amigo}</li>`;
+     });
 }
