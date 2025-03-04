@@ -21,10 +21,11 @@ function agregarAmigo () {
     mostrarAmigos()
 }
 
-function mostrarAmigos(){
+function mostrarAmigos() {
     let listaAmigos = document.getElementById("listaAmigos");
     listaAmigos.innerHTML = "";
-    amigos.forEach(amigo => {
-    listaAmigos.innerHTML += `<li>${amigo}</li>`;
-     });
+
+    for (let i = 0; i < amigos.length; i++) {
+        listaAmigos.innerHTML += `<li>${amigos[i]}</li>`;
+    }
 }
