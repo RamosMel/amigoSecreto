@@ -33,7 +33,11 @@ function mostrarAmigos() {
 function sortearAmigo() {
     if (amigos.length === 0) {
         alert ("No agregaste amigos, para sortear agrega al menos uno.")
+        return;
     }
 
-    
+    let aleatorio = Math.floor(Math.random() * amigos.length);
+    let amigoSecreto = amigos[aleatorio];
+    let resultado = document.getElementById("resultado")
+    resultado.innerHTML = `Amigo Secreto: <strong>${amigoSecreto}</strong>`
 }
