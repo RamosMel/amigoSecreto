@@ -29,3 +29,11 @@ function mostrarAmigos() {
         listaAmigos.innerHTML += `<li>${amigos[i]}</li>`;
     }
 }
+
+function sortearAmigo() {
+    if (amigos.length === 0) {
+        alert ("No agregaste amigos, para sortear agrega al menos uno.")
+    }
+
+    
+}
