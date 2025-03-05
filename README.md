@@ -3,7 +3,7 @@
 </div>
 <h1 align="center"> Amigo Secreto </h1>
 
-:construction: Estado del proyecto: en construcción :construction:
+:heavy_check_mark: Estado del proyecto: Finalizado :heavy_check_mark:
 
 # :paperclip: Descripción
 
