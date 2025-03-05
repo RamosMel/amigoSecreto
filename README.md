@@ -1,6 +1,5 @@
-<div align="center">
-    <img src="amigo-secreto.png" alt="imagen del juego amigo secreto" />
-</div>
+<img src="amigo-secreto.png" alt="imagen del juego amigo secreto" />
+
 
 # <h1 align="center"> Amigo Secreto </h1>
 
